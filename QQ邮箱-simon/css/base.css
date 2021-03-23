@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+input {
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}

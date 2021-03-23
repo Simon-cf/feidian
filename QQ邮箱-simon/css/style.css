@@ -1,0 +1,169 @@
+a {
+    color: #1d5494;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul li a {
+    padding: 0 5px;
+    border-right: 2px solid #ccc;
+}
+
+
+/* 1.header部分 */
+
+.header {
+    border-bottom: 1px solid #ccc;
+    background-color: #eff4fa;
+}
+
+.header .logo {
+    float: left;
+    margin: 14px 0 0 40px;
+}
+
+.header ul {
+    float: right;
+    margin-right: 40px;
+}
+
+.header ul li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+
+/* 2.主体部分 */
+
+.content {
+    width: 930px;
+    margin: 80px auto;
+}
+
+.sidebar {
+    float: left;
+    height: 370px;
+    width: 510px;
+    background: url("../images/bg.gif") no-repeat bottom right;
+}
+
+.sidebar h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #6f95c8;
+}
+
+.sidebar p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.login {
+    float: right;
+    width: 320px;
+    border: 1px solid #a0b1c4;
+    border-radius: 5px;
+}
+
+.login .login_header {
+    border-bottom: 1px solid #a0b1c4;
+}
+
+.login .login_header ul li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 160px;
+    background-color: #f9fbfe;
+    text-align: center;
+}
+
+.login a {
+    border: 0;
+}
+
+.login .login_header ul li a {
+    color: #999;
+    font-size: 16px;
+}
+
+.login .login_body {
+    padding: 15px 25px;
+}
+
+.login .login_details {
+    text-indent: 1em;
+    color: #ccc;
+    border: 1px solid #96a5b4;
+    border-radius: 3px;
+}
+
+.login .login_details:focus {
+    border: 1px solid #4192fc;
+}
+
+.login .w {
+    width: 270px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.login #login_auto {
+    margin: 20px 0 10px;
+}
+
+.login .login_in {
+    display: block;
+    background-color: #5a98de;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.login .login_faster {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login .login_help {
+    margin-top: 25px;
+}
+
+.login .login_forget {
+    float: left;
+}
+
+.login .login_register {
+    float: right;
+}
+
+
+/* 3.footer部分 */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #eff4fa;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+.footer ul {
+    display: inline-block;
+}
+
+.footer ul li {
+    float: left;
+    line-height: 40px;
+    height: 40px;
+}
+
+.footer .footer_declare {
+    margin-left: 5px;
+    color: #868686;
+}

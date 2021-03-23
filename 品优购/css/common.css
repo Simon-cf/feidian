@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?qsx6mj');
+    src: url('../fonts/icomoon.eot?qsx6mj#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?qsx6mj') format('truetype'), url('../fonts/icomoon.woff?qsx6mj') format('woff'), url('../fonts/icomoon.svg?qsx6mj#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.link_checked {
+    color: #c81623;
+}
+
+
+/* shortcut部分 */
+
+.shortcut {
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+
+.shortcut_nav {
+    float: right;
+}
+
+.shortcut_nav ul li {
+    float: left;
+    height: 30px;
+}
+
+.shortcut_nav ul li a {
+    padding: 0 15px;
+    font-family: 'icomoon';
+}
+
+.shortcut_nav ul li:nth-child(-n+6) a {
+    border-right: 1px solid #666;
+}
+
+
+/* header部分 */
+
+
+/* 锻炼行内块元素的特性 */
+
+.header {
+    height: 109px;
+    padding: 27px 0;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+}
+
+.header_center {
+    display: inline-block;
+}
+
+.header_search input {
+    height: 40px;
+    width: 446px;
+    border: 2px solid #c81623;
+    text-indent: 1em;
+}
+
+.header_search button {
+    height: 40px;
+    width: 80px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header_center ul li {
+    float: left;
+    line-height: 20px;
+    padding: 8px 10px;
+}
+
+.shopping_car {
+    float: right;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 50px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    font-family: "icomoon";
+}
+
+.shopping_car span {
+    color: #c81623;
+}
+
+.footer_ {
+    margin-top: 40px;
+    height: 420px;
+    background-color: #f5f5f5;
+}
+
+.footer_nav ul,
+.footer_details {
+    border-bottom: 1px solid #eee;
+}
+
+.footer_nav ul li {
+    float: left;
+    width: 240px;
+    height: 110px;
+    padding: 30px 0 0 35px;
+}
+
+.footer_nav ul li h5 {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.footer_nav ul li img {
+    float: left;
+    margin-right: 8px;
+}
+
+.footer_details dl {
+    float: left;
+    width: 200px;
+    height: 185px;
+    padding: 20px 0 0 50px;
+}
+
+.footer_details dl dt {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.footer_details dl dt dd {
+    line-height: 22px;
+}
+
+.footer_details dl:last-child {
+    padding-left: 0;
+    text-align: center;
+}
+
+.footer_copyright {
+    text-align: center;
+}
+
+.footer_copyright ul {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.footer_copyright ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.footer_copyright ul li a {
+    padding: 0 15px;
+}
+
+.footer_copyright ul li:nth-child(-n+11) a {
+    border-right: 1px solid #ddd;
+}
+
+.footer_copyright p {
+    line-height: 22px;
+}
