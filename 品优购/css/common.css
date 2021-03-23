@@ -7,6 +7,12 @@
     font-display: block;
 }
 
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/font_a/iconfont.eot');
+    src: url('../fonts/font_a/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/font_a/iconfont.woff2') format('woff2'), url('../fonts/font_a/iconfont.woff') format('woff'), url('../fonts/font_a/iconfont.ttf') format('truetype'), url('../fonts/font_a/iconfont.svg#iconfont') format('svg');
+}
+
 .w {
     width: 1200px;
     margin: 0 auto;
@@ -84,11 +90,12 @@
 }
 
 .shopping_car {
+    position: relative;
     float: right;
     width: 140px;
     height: 35px;
     line-height: 35px;
-    margin-right: 50px;
+    margin-right: 80px;
     background-color: #f7f7f7;
     border: 1px solid #dfdfdf;
     font-family: "icomoon";
@@ -97,6 +104,23 @@
 .shopping_car span {
     color: #c81623;
 }
+
+.shopping_car::after {
+    position: absolute;
+    top: -8px;
+    right: 20px;
+    height: 18px;
+    line-height: 18px;
+    width: 18px;
+    font-size: 16px;
+    background-color: #c81623;
+    color: #fff;
+    content: "8";
+    border-radius: 50% 50% 50% 0;
+}
+
+
+/* footer部分 */
 
 .footer_ {
     margin-top: 40px;

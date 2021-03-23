@@ -105,7 +105,7 @@
     padding-top: 5px;
     margin: -1px 0 0 -1px;
     border: 1px solid #e8e8e7;
-    font-family: "icomoon";
+    font-family: "iconfont";
     text-align: center;
 }
 
@@ -592,6 +592,7 @@
 }
 
 .main_phone .main_electric_content ul li:nth-child(2) {
+    background-color: #c6e8b6;
     background-image: url(../images/phone_2.png);
 }
 
@@ -709,4 +710,11 @@
     border: 8px solid transparent;
     border-right-color: #f8f8f8;
     content: "";
+}
+
+.main_hot dd p span {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "iconfont";
+    color: #bbb;
 }
