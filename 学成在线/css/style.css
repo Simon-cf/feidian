@@ -1,0 +1,408 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 14px;
+    background-color: #f3f5f7;
+}
+
+
+/* 1.header部分 */
+
+.header {
+    margin-top: 10px;
+    line-height: 70px;
+}
+
+.header .logo {
+    float: left;
+    width: 250px;
+    height: 42px;
+    padding: 14px 0;
+}
+
+.header .header_nav {
+    float: left;
+}
+
+.header .header_nav ul li {
+    float: left;
+    height: 70px;
+}
+
+.header .header_nav ul li a {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 10px;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.header .header_nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.header .header_search {
+    float: left;
+    width: 400px;
+    margin: 15px 50px 15px 120px;
+}
+
+.header .header_search input {
+    float: left;
+    height: 38px;
+    width: 359px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    text-indent: 2em;
+    color: #bbb;
+}
+
+.header .header_search button {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: #00a4ff url(../images/fa-search.png) no-repeat center;
+}
+
+.header .header_user {
+    float: left;
+    color: #bbb;
+}
+
+.header .header_user .header_user_pic {
+    float: left;
+    margin: 17px 10px 0 0;
+    width: 33px;
+    height: 33px;
+    background: url(../images/user.png) no-repeat center;
+    border-radius: 50%;
+}
+
+.banner {
+    margin-top: 15px;
+    background: #1c036c url(../images/banner2.jpg) no-repeat center;
+}
+
+.banner .banner_sidebar {
+    float: left;
+    padding: 12px 0;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.banner .banner_sidebar ul li a {
+    color: #fff;
+    display: block;
+    width: 190px;
+    height: 44px;
+    line-height: 44px;
+    text-indent: 1em;
+}
+
+.banner .banner_sidebar ul li a:hover {
+    color: #00a4ff;
+}
+
+.banner .banner_sidebar ul li a span {
+    float: right;
+    margin-right: 1em;
+}
+
+.banner .banner_course {
+    float: right;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.banner .banner_course .banner_course_head {
+    height: 44px;
+    width: 230px;
+    line-height: 44px;
+    background-color: #9bceea;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+
+.banner .banner_course li {
+    padding: 0 20px;
+}
+
+.banner .banner_course li a {
+    display: block;
+    width: 188px;
+    height: 50px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.banner .banner_course li a span {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.banner .banner_course .banner_course_all a {
+    margin: 10px 0 10px 0;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    color: #00a4ff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner .banner_course li a:hover p {
+    color: #00a4ff;
+}
+
+
+/* 3.nav部分 */
+
+.nav {
+    margin-top: 8px;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px 2px rgb(0, 0, 0, .1);
+}
+
+.nav .nav_reconmmend {
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+.nav ul li span {
+    color: #00a4ff;
+    font-weight: 500;
+}
+
+.nav ul li a,
+.nav ul li span {
+    padding: 0 34px;
+    border-right: 1px solid #ccc;
+}
+
+.nav ul li a:hover {
+    color: #00a4ff;
+}
+
+.nav .nav_change a {
+    float: right;
+    margin: 20px 30px 0 0;
+    font-size: 12px;
+    color: #00a4ff;
+}
+
+
+/* 4.content部分 */
+
+.content_recommend {
+    margin-top: 20px;
+}
+
+.content_recommend .content_recommend_header span,
+.content_primer .content_primer_header span,
+.content_recommend .content_recommend_header a,
+.content_primer .content_primer_header a {
+    float: left;
+    height: 56px;
+    line-height: 56px;
+    font-size: 18px;
+    color: #333;
+}
+
+.content_recommend .content_recommend_header a,
+.content_primer .content_primer_header a {
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.content_recommend .content_recommend_header a:hover,
+.content_primer .content_primer_header a:hover {
+    color: #00a4ff;
+}
+
+.content .content_recommend_body ul li {
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 273px;
+    padding: 0 25px;
+    margin: 0 12.5px 10px 0;
+    background: #fff url(../images/bg.png) no-repeat left top;
+}
+
+.content .content_recommend_body ul li em {
+    position: absolute;
+    top: 6px;
+    right: -4px;
+}
+
+.content .content_recommend_body ul .content_checked {
+    margin-right: 0;
+}
+
+.content .content_recommend_body ul li p,
+.content .content_primer_body_course ul li p {
+    margin: 180px 0 10px;
+}
+
+.content .content_recommend_body ul li p a:hover,
+.content .content_primer_body_course ul li p a:hover {
+    color: #00a4ff;
+}
+
+.content .content_recommend_body ul li span,
+.content .content_primer_body_course ul li span {
+    font-size: 12px;
+    color: #999;
+}
+
+.content .content_recommend_body ul li span i,
+.content .content_primer_body_course ul li span i {
+    font-style: normal;
+    color: #ff7c2d;
+}
+
+.content .content_primer_body_sidebar {
+    padding-top: 30px;
+    float: left;
+    width: 228px;
+    height: 360px;
+    background-image: url(../images/sidebar.png);
+}
+
+.content .content_primer_body_sidebar h4 {
+    margin: 10px 0 0 30px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.content .content_primer_body_sidebar .content_primer_body_sidebar_dotted {
+    float: left;
+    margin: 67px 0 0 30px;
+    height: 154px;
+    border-left: 4px dotted #fff;
+}
+
+.content .content_primer_body_sidebar .content_primer_body_sidebar_instruction {
+    float: left;
+    margin-top: 15px;
+}
+
+.content .content_primer_body_sidebar .content_primer_body_sidebar_instruction p {
+    margin: 50px 0 0 10px;
+    color: #fff;
+}
+
+.content_analyse .content_primer_body .content_primer_body_sidebar {
+    background-image: url(../images/sidebar2.png);
+}
+
+.content .content_primer_body_course .content_primer_body_course_top {
+    width: 907px;
+    height: 100px;
+    margin-left: 14px;
+    background-image: url(../images/py.png);
+}
+
+.content_analyse .content_primer_body .content_primer_body_course .content_primer_body_course_top {
+    background-image: url(../images/py2.png);
+}
+
+.content .content_primer_body_course ul li {
+    float: left;
+    margin: 0 0 20px 12.5px;
+    padding: 0 25px;
+    width: 180px;
+    height: 270px;
+    background: #fff url(../images/bg2.png) no-repeat top left;
+}
+
+.content_machine .content_primer_header ul {
+    float: left;
+    margin-left: 280px;
+}
+
+.content_machine .content_primer_header ul li {
+    float: left;
+}
+
+.content_machine .content_primer_header ul li a {
+    padding: 0 35px;
+    font-size: 14px;
+}
+
+.content_machine .content_recommend_body ul li {
+    background-image: url(../images/bg3.png);
+}
+
+.content_footer .content_recommend_body ul li {
+    background-image: url(../images/bg4.png);
+}
+
+
+/* 5.footer部分 */
+
+.footer {
+    overflow: hidden;
+    height: 320px;
+    margin-top: 35px;
+    background-color: #fff;
+}
+
+.footer_w {
+    width: 1150px;
+    padding: 35px 30px 0 20px;
+}
+
+.footer .footer_left {
+    float: left;
+    width: 500px;
+}
+
+.footer .footer_left p {
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.footer .footer_left button {
+    width: 120px;
+    height: 34px;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+    font-size: 16px;
+    outline: none;
+    background-color: #fff;
+}
+
+.footer .footer_right {
+    float: right;
+}
+
+.footer .footer_right dl {
+    float: left;
+    margin-left: 120px;
+}
+
+.footer .footer_right dl dt {
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.footer .footer_right dl dd {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer .footer_right dl dd a:hover {
+    color: #00a4ff;
+}
