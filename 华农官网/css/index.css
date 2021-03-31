@@ -1,0 +1,245 @@
+/* main_pic开始 */
+
+.main_pic {
+    display: flex;
+    justify-content: center;
+}
+
+.main_pic span {
+    position: relative;
+}
+
+.main_pic span::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.3;
+    content: "";
+}
+
+
+/* main_pic结束 */
+
+
+/* content开始 */
+
+.content {
+    display: flex;
+    margin-top: 30px;
+}
+
+.content a:hover,
+.academic a:hover {
+    color: #fd61af;
+}
+
+.new_focus {
+    flex: 2;
+    margin: 0 15px;
+}
+
+.acti_prev {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.content header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    padding-left: 110px;
+    border-bottom: 1px solid #fd61af;
+    color: #fd61af;
+}
+
+.content header a {
+    font-size: 12px;
+}
+
+.content h3 {
+    position: absolute;
+    left: 0;
+    color: #fd61af;
+    font-size: 24px;
+    line-height: 48px;
+    border-bottom: 1px solid rgb(247, 6, 86);
+}
+
+.content .new_focus ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .new_focus ul li {
+    height: 238px;
+    width: 50%;
+    padding: 20px;
+}
+
+.content .new_focus ul li:hover {
+    background-color: rgba(248, 142, 216, 0.1);
+}
+
+.content .acti_prev ul {
+    display: flex;
+    flex-direction: column;
+    height: 714px;
+}
+
+.content .acti_prev ul li {
+    flex: 1;
+}
+
+.content ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.content ul li span {
+    font-family: "iconfont";
+    color: #fd61af;
+}
+
+.content ul h4 {
+    height: 40px;
+    line-height: 1.2;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.content ul li h4 a {
+    color: #000;
+}
+
+.content ul li h4 a:hover {
+    color: rgb(247, 6, 86);
+}
+
+.content ul li p {
+    overflow: hidden;
+    flex: 1;
+    margin: 10px 0;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.content ul li p a {
+    line-height: 28px;
+}
+
+.content ul li p a img {
+    width: 100%;
+}
+
+.acti_prev ul li {
+    justify-content: center;
+}
+
+.acti_prev ul li:nth-child(-n+3) {
+    border-bottom: 1px solid rgb(247, 6, 86, .2);
+}
+
+.acti_prev ul li:nth-child(4) {
+    flex: 0.5;
+    margin-top: 30px;
+}
+
+.acti_prev ul li:nth-child(n+5) {
+    border-bottom: 1px dotted rgb(247, 6, 86, .3);
+}
+
+.acti_prev ul li>a {
+    display: flex;
+    justify-content: space-between;
+    font-family: "iconfont";
+}
+
+
+/* content结束 */
+
+
+/* academic开始 */
+
+.academic {
+    background-color: #fd61af;
+}
+
+.container {
+    height: 524px;
+    margin-top: 20px;
+}
+
+.container ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.container ul li {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 404px;
+    margin: 0 40px 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.container_pic {
+    position: relative;
+}
+
+.container ul li img {
+    width: 100%;
+}
+
+.container ul li .container_pic::after {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 236, 236, 0.2);
+    content: "";
+}
+
+.container ul li .container_pic:hover::after {
+    visibility: visible;
+}
+
+.container ul li h4 {
+    height: 40px;
+    margin: 10px 0;
+    font-weight: 400;
+    color: #000;
+}
+
+.container ul li p {
+    flex: 1;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.container ul li p span {
+    background-color: #B29873;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.container ul li p span a {
+    color: #fff;
+}
+
+.container ul li p span a:hover {
+    color: #fff;
+}
+
+
+/* academic结束 */

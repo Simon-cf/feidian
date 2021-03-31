@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff2') format('woff2'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.w {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header部分开始 */
+
+.header {
+    background-color: #fd61af;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul li a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 15px;
+    font-family: "iconfont";
+    color: #fff;
+}
+
+.header ul li a:hover {
+    background-color: rgb(247, 6, 86);
+}
+
+
+/* header结束 */
+
+
+/* logo开始 */
+
+.logo {
+    height: 101px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(247, 6, 86);
+}
+
+.logo a {
+    margin: 0 10px;
+}
+
+
+/* logo结束 */
+
+
+/* nav开始 */
+
+.nav ul {
+    display: flex;
+    width: 100%;
+}
+
+.nav ul li {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 50px;
+}
+
+.nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: #fd61af;
+}
+
+.nav ul li a:hover {
+    background-color: #fd61af;
+    color: #fff;
+}
+
+
+/* nav结束 */
+
+
+/* footer开始 */
+
+.footer {
+    background: -webkit-linear-gradient(left, #fef3f1, #fde1de, #fef3f1);
+}
+
+.footer_nav {
+    display: flex;
+    align-items: center;
+    height: 390px;
+}
+
+.footer_nav ul {
+    display: flex;
+    width: 100%;
+}
+
+.footer_nav ul li {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer_nav ul li dt {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    margin-bottom: 10px;
+}
+
+.footer_nav ul li dt a {
+    color: #22132D;
+}
+
+.footer_nav ul li dt a:hover {
+    color: #fd61af;
+}
+
+.footer_nav ul li dd {
+    line-height: 25px;
+    font-size: 13px;
+    color: #585858;
+}
+
+
+/* footer结束 */
+
+
+/* copyright开始 */
+
+.copyright {
+    background-color: #fd61af;
+}
+
+.copyright_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 124px;
+    padding: 14px 0 4px 0;
+    color: #fff;
+}
+
+.copyright_details a {
+    padding: 0;
+    color: #fff;
+}
+
+
+/* copyright结束 */

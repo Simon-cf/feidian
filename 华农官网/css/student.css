@@ -1,0 +1,144 @@
+.banner {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+
+/* user_details开始 */
+
+.user_details {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 140px;
+}
+
+.user_path {
+    position: relative;
+    z-index: 1;
+    width: 22%;
+    transform: translateY(-114px);
+}
+
+.user_path ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.user_path ul li:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+    background-color: #fd61af;
+    font-size: 42px;
+    color: #fff;
+}
+
+.user_path ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fff;
+    border-left: 2px solid rgb(238, 55, 177);
+    background-color: rgba(247, 6, 86, .2);
+    width: 100%;
+    height: 50px;
+    padding: 0 15px 0 20px;
+    color: #000;
+}
+
+.user_path ul li:nth-child(2) a {
+    background-color: #fd61af;
+    color: #fff;
+}
+
+.user_path ul li a::after {
+    visibility: hidden;
+    width: 5px;
+    height: 5px;
+    border: 4px solid #fff;
+    border-bottom: 0;
+    border-left: 0;
+    color: #fff;
+    transform: rotate(45deg);
+    content: "";
+}
+
+.user_path ul li a:hover {
+    color: #fff;
+    background-color: #fd61af;
+}
+
+.user_path ul li a:hover::after,
+.user_path ul li:nth-child(2) a::after {
+    visibility: visible;
+}
+
+
+/* user_details结束 */
+
+
+/* contain_main开始 */
+
+.re {
+    position: relative;
+    top: -360px;
+}
+
+.content_main {
+    width: 75%;
+    padding: 5px 0 0 16%;
+}
+
+.content_main a {
+    color: #000;
+}
+
+.content_main a:hover {
+    color: #fd61af;
+}
+
+.content_main h3 {
+    font-weight: 400;
+    font-size: 2.2em;
+    color: #fd61af;
+    padding-bottom: 20px;
+    margin: 10px 0 20px 0;
+    border-bottom: 1px solid rgba(238, 55, 177, .2);
+}
+
+.content_main ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.content_main ul li:nth-child(2n+1) {
+    height: 37px;
+    background-color: rgba(238, 55, 177, .2);
+    color: #fd61af;
+    border-bottom: 1px solid rgba(238, 55, 177, .3);
+    border-radius: 5px;
+}
+
+.content_main ul li:nth-child(2n) {
+    height: 87px;
+}
+
+.content_main ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding: 0 15px;
+    font-family: "iconfont";
+}
+
+.content_main ul li a {
+    width: 33.333%;
+    color: #666;
+}
+
+
+/* content_main开始 */

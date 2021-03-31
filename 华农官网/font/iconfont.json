@@ -1,0 +1,149 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1396",
+      "name": "树",
+      "font_class": "shu",
+      "unicode": "f01d3",
+      "unicode_decimal": 983507
+    },
+    {
+      "icon_id": "680613",
+      "name": "书签",
+      "font_class": "shuqian",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1403372",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "2729096",
+      "name": "五角星",
+      "font_class": "start",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "3541087",
+      "name": "别针",
+      "font_class": "biezhen",
+      "unicode": "e79f",
+      "unicode_decimal": 59295
+    },
+    {
+      "icon_id": "4119294",
+      "name": "书签",
+      "font_class": "shuqian1",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "5860959",
+      "name": "校务综合-意见箱",
+      "font_class": "xiaowuzonghe-yijianxiang",
+      "unicode": "e798",
+      "unicode_decimal": 59288
+    },
+    {
+      "icon_id": "7570333",
+      "name": "时钟",
+      "font_class": "shizhong1",
+      "unicode": "e729",
+      "unicode_decimal": 59177
+    },
+    {
+      "icon_id": "8405894",
+      "name": "时钟",
+      "font_class": "shizhong2",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "12785063",
+      "name": "大于号",
+      "font_class": "right",
+      "unicode": "e50b",
+      "unicode_decimal": 58635
+    },
+    {
+      "icon_id": "12785065",
+      "name": "大于号",
+      "font_class": "right-copy",
+      "unicode": "e50c",
+      "unicode_decimal": 58636
+    },
+    {
+      "icon_id": "13908516",
+      "name": "五角星",
+      "font_class": "start1",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "14541668",
+      "name": "太阳",
+      "font_class": "taiyang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "14791853",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "15290819",
+      "name": "五角星",
+      "font_class": "start2",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "16079920",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e769",
+      "unicode_decimal": 59241
+    },
+    {
+      "icon_id": "16847664",
+      "name": "更多-竖-圆-",
+      "font_class": "gengduo-shu-yuan-",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "17499519",
+      "name": "书签",
+      "font_class": "shuqian2",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "17959217",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "18904652",
+      "name": "时钟",
+      "font_class": "shizhong3",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}
