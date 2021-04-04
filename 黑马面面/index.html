@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黑马面面</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+    <section class="wrap">
+        <!-- 头部区域 -->
+        <header class="header">黑马面面</header>
+        <!-- 导航栏部分 -->
+        <nav class="nav">
+            <a href="#"><img src="images/hr.png" alt="">
+                <p>HR面试</p>
+            </a>
+            <a href="#"><img src="images/hr.png" alt="">
+                <p>HR面试</p>
+            </a>
+            <a href="#"><img src="images/hr.png" alt="">
+                <p>HR面试</p>
+            </a>
+            <a href="#"><img src="images/hr.png" alt="">
+                <p>HR面试</p>
+            </a>
+            <a href="#"><img src="images/hr.png" alt="">
+                <p>HR面试</p>
+            </a>
+            <a href="#"><img src="images/hr.png" alt="">
+                <p>HR面试</p>
+            </a>
+        </nav>
+        <!-- banner部分 -->
+        <div class="banner"><img src="images/banner.png" alt=""></div>
+    </section>
+    <!-- 就业指导部分 -->
+    <div class="job">
+        <header><img src="images/guide.png" alt="">
+            <div class="side_job">
+                <h4>就业指导</h4>
+                <a href="#">更多>></a>
+            </div>
+        </header>
+        <div class="get_job_focus">
+            <!-- Swiper -->
+            <div class="swiper-container get_job_fo">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/pic.png" alt=""></a>
+                        <p>老师教你面试技巧</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/pic.png" alt=""></a>
+                        <p>老师教你面试技巧</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/pic.png" alt=""></a>
+                        <p>老师教你面试技巧</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <!-- 充电学习部分 -->
+    <div class="study">
+        <header><img src="images/guide.png" alt="">
+            <div class="side_study">
+                <h4>充电学习</h4>
+                <a href="#">更多>></a>
+            </div>
+        </header>
+        <div class="study_focus">
+            <!-- Swiper -->
+            <div class="swiper-container study_fo">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/pic1.png" alt="">
+                            <h4>说地道英语，告别中式英语</h4>
+                            <p><span>156</span>人学习</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/pic1.png" alt="">
+                            <h4>说地道英语，告别中式英语</h4>
+                            <p><span>156</span>人学习</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/pic1.png" alt="">
+                            <h4>说地道英语，告别中式英语</h4>
+                            <p><span>156</span>人学习</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer部分 -->
+    <div class="footer">
+        <ul>
+            <li><img src="images/user.png" alt="">
+                <p>我的</p>
+            </li>
+            <li><img src="images/user.png" alt="">
+                <p>我的</p>
+            </li>
+            <li><img src="images/user.png" alt="">
+                <p>我的</p>
+            </li>
+            <li><img src="images/user.png" alt="">
+                <p>我的</p>
+            </li>
+        </ul>
+    </div>
+    <script src="js/flexible.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        (function() {
+            var swiper = new Swiper('.get_job_fo', {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                centeredSlides: true,
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        })();
+        (function() {
+            var swiper = new Swiper('.study_fo', {
+                slidesPerView: 2.3,
+                spaceBetween: 30,
+
+            });
+        })();
+    </script>
+
+</body>
+
+</html>

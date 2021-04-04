@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+input,
+button {
+    border: 0;
+    outline: none;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+input,
+a {
+    -webkit-touch-callout: none;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+
+.clearfix::after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: "";
+}
+
+.clearfix {
+    *zoom: 1;
+}
