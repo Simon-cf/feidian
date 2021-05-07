@@ -596,3 +596,118 @@ body {
   color: #888;
   cursor: text;
 }
+.footer {
+  width: 100%;
+  position: relative;
+  height: 5.25rem;
+  background-color: #333333;
+  font-size: 0.116667rem;
+}
+.footer .footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-top dl {
+  width: 30%;
+  margin-top: 0.625rem;
+}
+.footer .footer-top dl dt,
+.footer .footer-top dl dd,
+.footer .footer-top dl a {
+  color: #999;
+}
+.footer .footer-top dl dt {
+  text-indent: 0.19rem;
+  margin-bottom: 0.25rem;
+}
+.footer .footer-top dl dd:nth-of-type(1) {
+  height: 1.88rem;
+}
+.footer .footer-top dl dd:nth-of-type(1) > a {
+  display: inline-block;
+  margin: 0.15rem 0.19rem;
+}
+.footer .footer-top dl dd:nth-of-type(1) > a:hover {
+  color: #31c27c;
+}
+.footer .footer-top dl dd:nth-of-type(2) {
+  margin-bottom: 0.208333rem;
+  text-indent: 0.19rem;
+}
+.footer .footer-top dl dd:nth-of-type(3) {
+  text-indent: 0.18rem;
+}
+.footer .footer-top dl dd:nth-of-type(3) a {
+  margin-right: 0.19rem;
+}
+.footer .footer-top dl dd:nth-of-type(3) a:hover {
+  color: #31c27c;
+}
+.footer .footer-top dl ul a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  width: 25%;
+  height: 0.675rem;
+}
+.footer .footer-top dl ul a p {
+  margin-top: 0;
+  font-size: 0.116667rem;
+}
+.footer .footer-top dl ul a .footer-icon {
+  width: 0.45rem;
+  height: 0.4rem;
+  background: url(../images/footer.png) no-repeat 0 0;
+}
+.footer .footer-top .cooperate ul {
+  margin-left: 0.208333rem;
+}
+.footer .footer-top .cooperate ul li a {
+  float: left;
+  width: 33.3333%;
+  height: 0.25rem;
+  align-items: flex-start;
+}
+.footer .footer-top .cooperate ul li a:hover {
+  color: #31c27c;
+}
+.footer .copyright {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 0.1rem;
+}
+.footer .copyright ul li {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.footer .copyright ul li:last-child a {
+  border-right: 0;
+}
+.footer .copyright ul li a {
+  display: block;
+  height: 0.1rem;
+  line-height: 0.1rem;
+  padding: 0 0.041667rem;
+  border-right: 1px solid #999;
+  font-size: 0.1rem;
+  color: #999;
+}
+.footer .copyright ul li a:hover {
+  color: #31c27c;
+}
+.footer p {
+  margin-top: 0.12rem;
+}
+.footer p a {
+  color: #999;
+}
+.footer p a:hover {
+  color: #31c27c;
+}

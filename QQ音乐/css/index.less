@@ -142,7 +142,6 @@ body {
                }
             }
             .songs_his {
-
                 display: none;
                 position: absolute;
                 top: 0;
@@ -612,4 +611,127 @@ body {
             }
         }
     }
+}
+.footer {
+    width: 100%;
+    position: relative;
+    height: 5.25rem ;
+    background-color: #333333;
+    font-size: .116667rem;
+
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        dl {
+            width: 30%;
+            margin-top: .625rem;
+            dt,dd, a {
+                color: #999;
+            }
+            dt {
+                text-indent: .19rem;
+                margin-bottom: .25rem;
+            }
+            dd {
+                &:nth-of-type(1) {
+                    height: 1.88rem;
+                    &>a {
+                        display: inline-block;
+                        &:hover {
+                            color: #31c27c;
+                        } 
+                        margin: 0.15rem  0.19rem;
+                    }
+                }
+                &:nth-of-type(2) {
+                    margin-bottom: .208333rem;
+                    text-indent: .19rem;
+                }
+                &:nth-of-type(3) {
+                    text-indent: .18rem;
+                    a {
+                        &:hover {
+                            color: #31c27c;
+                        } 
+                        margin-right: .19rem;
+                    }
+                }
+            }
+            ul {
+                a{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    float: left;
+                    width: 25%;
+                    height: .675rem;
+                    p {
+                        margin-top: 0;
+                        font-size: .116667rem;
+                    }
+                    .footer-icon {
+                        width: .45rem;
+                        height: .4rem;
+                        background: url(../images/footer.png) no-repeat 0 0;
+                    }
+                }
+            }
+        }
+        .cooperate ul {
+            margin-left: .208333rem;
+            li a{
+                &:hover {
+                    color: #31c27c;
+                }
+                float: left;
+                width: 33.3333%;
+                height: .25rem;
+                align-items: flex-start;
+            }
+        }
+       
+    }
+.copyright {
+    margin-top: .75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: .1rem;
+    ul li {
+        float: left;
+        display: flex;
+        align-items: center;
+        &:last-child {
+            a {
+                border-right: 0;
+            }
+        }
+        a {
+            
+            display: block;
+            height: .1rem;
+            line-height: .1rem;
+            padding: 0 .041667rem;
+            border-right: 1px solid #999;
+            &:hover {
+                color: #31c27c;
+            }
+            font-size: .1rem;
+            color: #999;
+        }
+       
+    }
+}
+p {
+    margin-top: .12rem;
+    a {
+        &:hover {
+            color: #31c27c;
+        }
+        color: #999;
+    }
+}
 }

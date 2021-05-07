@@ -35,7 +35,6 @@ window.addEventListener('load', function() {
         animate2(song_his, -search_ipt.offsetHeight);
     });
 
-
     // recon模块
     // 1.动态生成ol
     var recon_ol = document.querySelector('.recon ol');
@@ -148,7 +147,8 @@ window.addEventListener('load', function() {
             }
             var index = this.dataset['index'];
             this.className = 'li_Rcolor';
-            num1 = index; // 更新点击后的图片索引
+            num1 = index;
+            circle1 = index;
             animate(new_song_ul, -index * move_step1);
         })
     };
@@ -174,38 +174,65 @@ window.addEventListener('load', function() {
     var flag1 = true; // 节流阀
     var len1 = new_song_ul.children.length; // 轮播图片的个数+1
     song_arrow_r.addEventListener('click', function() {
-        if (num1 == len1 - 1) {
-            num1 = 0;
-            new_song_ul.style.left = 0;
+        if (flag1) {
+            flag1 = false;
+            if (num1 == len1 - 1) {
+                num1 = 0;
+                new_song_ul.style.left = 0;
+            }
+            num1++;
+            circle1++;
+            if (circle1 > new_song_ol.children.length - 1) {
+                circle1 = 0;
+            }
+            for (var i = 0; i < new_song_ol.children.length; i++) {
+                new_song_ol.children[i].className = '';
+            }
+            new_song_ol.children[circle1].className = 'li_Rcolor';
+            animate(new_song_ul, -num1 * move_step1, function() {
+                flag1 = true;
+            });
         }
-        num1++;
-        circle1++;
-        if (circle1 > new_song_ol.children.length - 1) {
-            circle1 = 0;
-        }
-        for (var i = 0; i < new_song_ol.children.length; i++) {
-            new_song_ol.children[i].className = '';
-        }
-        new_song_ol.children[circle1].className = 'li_Rcolor';
-        animate(new_song_ul, -num1 * move_step1);
     });
     song_arrow_l.addEventListener('click', function() {
-        if (num1 == 0) {
-            num1 = len1 - 1;
-            new_song_ul.style.left = -(len1 - 1) * move_step1 + 'px';
+        if (flag1) {
+            flag1 = false;
+            if (num1 == 0) {
+                num1 = len1 - 1;
+                new_song_ul.style.left = -(len1 - 1) * move_step1 + 'px';
+            }
+            num1--;
+            circle1--;
+            if (circle1 < 0) {
+                circle1 = new_song_ol.children.length - 1;
+            }
+            for (var i = 0; i < new_song_ol.children.length; i++) {
+                new_song_ol.children[i].className = '';
+            }
+            new_song_ol.children[circle1].className = 'li_Rcolor';
+            animate(new_song_ul, -num1 * move_step1, function() {
+                flag1 = true;
+            });
         }
-        num1--;
-        circle1--;
-        if (circle1 < 0) {
-            circle1 = new_song_ol.children.length - 1;
-        }
-        for (var i = 0; i < new_song_ol.children.length; i++) {
-            new_song_ol.children[i].className = '';
-        }
-        new_song_ol.children[circle1].className = 'li_Rcolor';
-        animate(new_song_ul, -num1 * move_step1);
     })
     var timer1 = setInterval(function() {
         song_arrow_r.click();
     }, 2000);
+
+    // footer部分
+    var footer_top_icons = document.querySelectorAll('.footer-top ul .footer-icon');
+    for (var i = 0; i < footer_top_icons.length; i++) {
+        footer_top_icons[i].style.backgroundPosition = '-' + 92 * i + 'px 0';
+    }
+    for (var i = 0; i < footer_top_icons.length; i++) {
+        footer_top_icons[i].parentNode.addEventListener('mouseenter', function() {
+            this.children[0].style.backgroundPositionY = '-49px';
+            this.children[1].style.color = '#31c27c';
+        });
+        footer_top_icons[i].parentNode.addEventListener('mouseleave', function() {
+            this.children[0].style.backgroundPositionY = '0px';
+            this.children[1].style.color = '#999';
+
+        })
+    }
 })
