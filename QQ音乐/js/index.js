@@ -222,15 +222,15 @@ window.addEventListener('load', function() {
     // footer部分
     var footer_top_icons = document.querySelectorAll('.footer-top ul .footer-icon');
     for (var i = 0; i < footer_top_icons.length; i++) {
-        footer_top_icons[i].style.backgroundPosition = '-' + 92 * i + 'px 0';
+        footer_top_icons[i].style.backgroundPosition = '-' + 92 / 120 * i + 'rem 0';
     }
     for (var i = 0; i < footer_top_icons.length; i++) {
         footer_top_icons[i].parentNode.addEventListener('mouseenter', function() {
-            this.children[0].style.backgroundPositionY = '-49px';
+            this.children[0].style.backgroundPositionY = '-.408333rem';
             this.children[1].style.color = '#31c27c';
         });
         footer_top_icons[i].parentNode.addEventListener('mouseleave', function() {
-            this.children[0].style.backgroundPositionY = '0px';
+            this.children[0].style.backgroundPositionY = '0';
             this.children[1].style.color = '#999';
 
         })
